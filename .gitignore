@@ -1,0 +1,17 @@
+# Credenciales locales: conservar solamente la plantilla pública.
+.env
+.env.*
+!.env.example
+
+# Entornos virtuales.
+.venv/
+venv/
+
+# Caché de Python.
+__pycache__/
+*.py[cod]
+
+# Archivos locales del editor y sistema.
+.vscode/
+.DS_Store
+Thumbs.db
